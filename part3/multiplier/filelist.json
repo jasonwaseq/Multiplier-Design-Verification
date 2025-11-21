@@ -1,0 +1,7 @@
+{
+    "top": "testbench",
+    "files":
+    ["part3/multiplier/multiplier.sv"
+    ,"part3/multiplier/testbench.sv"
+    ]
+}

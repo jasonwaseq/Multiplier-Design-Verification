@@ -1,0 +1,5 @@
+prep -top multiplier -flatten
+aigmap -nand
+synth
+abc -g NAND
+stat -tech cmos

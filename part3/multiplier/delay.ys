@@ -1,0 +1,6 @@
+prep -top multiplier -flatten
+aigmap -nand
+synth_xilinx -family xc7 -nosrl -nocarry -nodsp -flatten
+xilinx_dffopt
+stat -tech xilinx
+sta
